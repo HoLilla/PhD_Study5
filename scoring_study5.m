@@ -23,8 +23,8 @@ elseif total{i,1}< total{i,2}
     neg_app(i-2) = 0
     neg_ban(i-2) = total{i,1}+ total{i,2}
 else
-    neg_app(i-2) = 0
-    neg_ban(i-2) = 0
+    neg_app(i-2) = total{i,1}
+    neg_ban(i-2) = total{i,2}
 end
 end
     
